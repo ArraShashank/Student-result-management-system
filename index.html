@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.css">
+    <title>Homepage</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            <span class="heading">VCE Student Result Management System</span>
+        </div>
+        
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="homepage.html">Home</a>
+                </li>
+                <li>
+                    <a href="login.php">Faculty Login</a>
+                </li>
+                <li class="dropdown" onclick="toggleDisplay('1')">
+                    <a href="#" class="dropbtn">Faculties &nbsp
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                    <div class="dropdown-content" id="1">
+                        <a href="civilfaculty.html">CIVIL</a>
+                        <a href="csefaculty.html">CSE</a>
+                        <a href="">ECE</a>
+                        <a href="">EEE</a>
+                        <a href="">MECH</a>
+                        <a href="">IT</a>
+                    </div>
+                </li>
+                <li class="dropdown" onclick="toggleDisplay('2')">
+                    <a href="#" class="dropbtn">Student &nbsp
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                    <div class="dropdown-content" id="2">
+                       
+                        <a href="./login.php">Check Results</a>
+                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="slider">
+            <img src="images/jcb.jpg" class="slider-image" alt="img">
+        </div>
+    
+        <div class="main">
+            <span><b>About Vasavi College Of Engineering</b></span>
+            <p>Founded in 1981 by Vasavi Academy of Education, Vasavi College of Engineering represents a rich tradition of excellence in technology-based education. A premier-league institution among the affiliates of Osmania University, Vasavi College of Engineering owes its vision to Sri Pendekanti Venkata Subbaiah, a veteran statesman of Independent India.</p>
+            <div class="info">
+                <div>
+                    <span>Courses</span> <hr>
+                    <p>Vasavi College of Engineering, established in 1981, is a self-financed institution, approved by AICTE, New Delhi and affiliated to Osmania Universisy, Hyderabad and offers 4-year Undergraduate Programmes in Engineering Education (B.E), and a 2-year Postgraduate Programme in Engineering Education (M.E).</p>
+                </div>
+                
+                <div>
+                    <span>Library</span> <hr>
+                    <p>Dr. Sarvepalli Radhakrishnan Learning Resources Centre, the central Library has a floor area of 2977 Sq.Mtr. with a reading space 770 Sq.Mtr. Central library is equipped with different types of learning resources. It also has reprographic facilities. Library uses Online Public Access Catalog (OPAC) to access library facilities through intranet. The digital library has 27 systems and connected with 1 Gbps (ACT FIBERNET), 100 Mbps (BSNL), 100 Mbps (Pioneer E Labs) Internet facilities. It enables students to access to IEEE IEL, ASME, ASCE, ELSEVIER & J-GATE e-journals.</p>
+                </div>
+                <div>
+                    <span>Campus Region</span> <hr>
+                    <p>Located in the sylvan suburbs of Ibrahimbagh in Hyderabad, Vasavi College of Engineering presents a picturesque view flanked by the glorious Golconda Fort. Situated over a sprawling 13.6 acre campus with lush lawns, a beautiful landscape, aesthetic architecture and avant-garde infrastructure, the College epitomizes an exemplary setting for higher learning.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            
+            <div class="footer--info">
+                <span>Important Links</span>
+                <a href="homepage.html">Home</a>
+                <a href="login.php">Faculty Login</a>
+                <a href="login.php">Check Results</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
